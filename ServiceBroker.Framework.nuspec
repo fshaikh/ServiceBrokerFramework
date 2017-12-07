@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Dell.ServiceBroker.Framework</id>
+    <version>0.1.0</version>
+    <authors>Furqan_Shaikh</authors>
+    <owners>Furqan_Shaikh</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a framework for implementing Service Broker</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Service Broker</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="ServiceBroker.Shared" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceBroker.Middleware.AuthProvider" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceBroker.Middleware.HeaderVerifier" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ServiceBroker.API" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

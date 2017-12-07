@@ -1,0 +1,16 @@
+# Dependency directories
+.vs/
+bin/
+ServiceBroker.App/bin
+ServiceBroker.App/obj
+ServiceBroker.Core.API/bin
+ServiceBroker.Core.API/obj
+ServiceBroker.Middleware.AuthProvider/bin
+ServiceBroker.Middleware.AuthProvider/obj
+ServiceBroker.Middleware.HeaderVerifier/bin
+ServiceBroker.Middleware.HeaderVerifier/obj
+ServiceBroker.Shared/bin
+ServiceBroker.Shared/obj
+ServiceBroker.Tests/
+
+

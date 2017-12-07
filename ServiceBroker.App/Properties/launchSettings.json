@@ -1,0 +1,33 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:64183/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "v2/catalog",
+      "environmentVariables": {
+        "username": "test",
+        "password": "test",
+        "CatalogData": "{\"services\": [{\"name\": \"default-service\",\"id\": \"fde77762-81d7-4670-8127-d359f6279e78\",\"description\": \"Sample Service\",\"tags\": [ \"no-sql\", \"relational\" ],  \"requires\": [ \"route_forwarding\" ],  \"bindable\": true,\"metadata\": {\"provider\": {\"name\": \"The name\"},\"listing\": {\"imageUrl\": \"http://example.com/cat.gif\",\"blurb\": \"Add a blurb here\",\"longDescription\": \"A long time ago, in a galaxy far far away...\" },\"displayName\": \"The Default Broker\"},\"plan_updateable\": true,\"plans\": [{\"name\": \"sample-plan-1\", \"id\": \"d63c8a1e-549b-44c9-b286-21a056357d37\",\"description\": \"Shared FP Server, 5tb persistent disk, 40 max concurrent connections\",\"max_storage_tb\": 5,\"metadata\": {\"costs\": [{\"amount\": {\"usd\": 99.0},\"unit\": \"MONTHLY\"},{\"amount\": {\"usd\": 0.99},\"unit\": \"1GB of messages over 20GB\"}],\"bullets\": [\"Shared Default server\",\"5 TB storage\",\"40 concurrent connections\"]}}]}]}",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CatalogFile": "defaultCatalog.json"
+      }
+    },
+    "ServiceBroker.Core.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/values",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:64184/"
+    }
+  }
+}
